@@ -1,0 +1,52 @@
+.Contenedor_padre h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(73, 131, 160);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.item-list{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+  }
+
+.card {
+    background-color: rgb(238, 238, 238);
+    width: 300px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.image-box-card{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-card{
+    width: 34%;
+  }
+  .info-card{
+    flex: 1;
+    padding: 20px 0;
+    position: relative;
+    padding-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .info-card .title-card{
+    font-size: 1.2rem;
+    padding: 0 0 15px 0;
+  }
+  .info-card .description-card{
+    font-size: 1rem;
+    font-weight: 300;
+  }

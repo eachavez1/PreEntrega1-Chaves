@@ -1,5 +1,5 @@
 .nav {
-    background-color: rgb(77, 126, 4);
+    background-color: rgb(135, 183, 206);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -31,6 +31,10 @@ li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a {
+    color:white;
+}
+
 img {
     width: 100px;
     height: 115px;
@@ -42,6 +46,7 @@ img {
     height: 50px;
     margin-right: 0px;
 }
+
 
 .carrito_y_numero {
     display: flex;
@@ -55,4 +60,6 @@ img {
     font-size: 30px;
     margin: 25px;
     margin-left: 5px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
