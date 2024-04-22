@@ -39,7 +39,7 @@
     flex: 1;
     padding: 20px 0;
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .info-card .title-card{
@@ -49,4 +49,45 @@
   .info-card .description-card{
     font-size: 1rem;
     font-weight: 300;
+  }
+
+  .info-card a{
+    background-color: rgb(73, 131, 160);
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-inline: 20px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    text-align: center;
+    text-justify: center;
+    align-items: center;
+    justify-items: center;
+    
+  }
+
+  .imagen_detalle{
+    width: 300px; 
+    height: auto;
+  }
+
+  .titulo_detalle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(73, 131, 160);
+    text-align: start;
+    margin: 10px;
+  }
+
+  p {
+    margin:10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .garantia_texto{
+    font-size: 12px;
+    font-weight: 100;
+    font-style: italic;
+    width: 400px;
   }

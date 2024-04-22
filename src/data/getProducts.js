@@ -61,7 +61,7 @@ const productos = [
       imagen: "../../public/imagenes/AIRPODS_2.png",
       precio: "$699.000 COP",
       stock: 5,
-      categoria: "Airpods"
+      categoria: "airpods"
     },
     {
       id: "ASC008",
@@ -70,7 +70,7 @@ const productos = [
       imagen: "../../public/imagenes/AIRPODS_3.png",
       precio: "$1'100.000 COP",
       stock: 5,
-      categoria: "Airpods"
+      categoria: "airpods"
     }
   ]
   

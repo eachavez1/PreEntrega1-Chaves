@@ -3,14 +3,17 @@ import { useState, useEffect } from 'react'
 import getProducts from "../../data/getProducts"
 import ItemDetail from './ItemDetail'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { useParams } from 'react-router-dom'
 
 const ItemDetailContainer = () => {
     const [product, setProduct]=useState({})
+    
+    const {idProduct}=useParams()
 
     useEffect (()=>{
         getProducts
             .then((respuesta)=>{
-                const newProduct =respuesta.find((product)=>product.id==="ASC001")
+                const newProduct =respuesta.find((product)=>product.id===idProduct)
                 setProduct (newProduct)
             })
 
