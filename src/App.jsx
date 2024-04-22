@@ -1,8 +1,9 @@
 
 import './App.css'
-import ItemCount from './components/ItemCount/ItemCount'
-import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import Nav from './components/Nav/Nav'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 
@@ -11,11 +12,12 @@ function App() {
   };
 
   return (
-    <div>
+    <BrowserRouter>
       <Nav/>
-      <ItemListContainer saludo="Bienvenido a la Tienda Virtual de Apple!"/>
-      <ItemCount addToCart={addToCart}/>
-    </div>
+      <Routes>
+        <Route path="/" element={<ItemListContainer saludo="Bienvenido a la tienda en linea de Apple"/>} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

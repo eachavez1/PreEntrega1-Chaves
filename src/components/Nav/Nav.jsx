@@ -1,15 +1,19 @@
 import React from 'react'
 import "./nav.css"
 import CartWidget from './CartWidget'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
     <nav className='nav'>
-        <img src="/imagenes/logo.png"/>
+        <Link to="/">
+          <img src="/imagenes/logo.png"/>
+        </Link>
+
         <ul>
-            <li><a href="#">iPhone</a></li>
-            <li><a href="#">AppleWatch</a></li>
-            <li><a href="#">AirPods</a></li>
+            <li><Link to="/category/iPhone">iPhone</Link></li>
+            <li><Link to="/category/AppleWatch">AppleWatch</Link></li>
+            <li><Link to="/category/airpods">Airpods</Link></li>
         </ul>
         <CartWidget/>
     </nav>
