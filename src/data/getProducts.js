@@ -4,7 +4,7 @@ const productos = [
       id: "ASC001",
       nombre: "iPhone 15 Pro Max",
       descripcion: "1TB 5G | 8GB RAM | Pantalla 6.1 pulgadas | Chip A17 Pro | Carga Tipo C | Dynamic Island | Cámara 48MP",
-      imagen: "../../public/imagenes/Iphone_15_pro_max.png",
+      imagen: "/../../public/imagenes/Iphone_15_pro_max.png",
       precio: "$4'799.000 COP",
       stock: 5,
       categoria: "iPhone"
