@@ -15,7 +15,8 @@ function App() {
     <BrowserRouter>
       <Nav/>
       <Routes>
-        <Route path="/category" element={<ItemListContainer saludo="Bienvenido a la tienda en linea de Apple"/>} />
+        <Route path="/" element={<ItemListContainer saludo="Bienvenido a la tienda en linea de Apple"/>} />
+        <Route path="/PreEntrega1-Chaves" element={<ItemListContainer saludo="Bienvenido a la tienda en linea de Apple"/>} />
         <Route path="/category/:idCategory" element={<ItemListContainer saludo="Bienvenido a la tienda en linea de Apple"/>} />
         <Route path="/detail/:idProduct" element={<ItemDetailContainer/>}/>
       </Routes>
