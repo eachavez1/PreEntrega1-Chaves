@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <nav className='nav'>
         <Link to="/">
-          <img src="/imagenes/logo.png"/>
+          <img src="/../../public/imagenes/logo.png"/>
         </Link>
 
         <ul>
