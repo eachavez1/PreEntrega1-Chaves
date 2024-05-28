@@ -4,7 +4,7 @@ import Nav from './components/Nav/Nav'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import EjemploContadorEventListener from './components/examples/EjemploContadorEventListener';
+import EjemploFormulario from './components/examples/EjemploFormulario';
 
 function App() {
 
@@ -20,7 +20,7 @@ function App() {
         <Route path="/PreEntrega1-Chaves" element={<ItemListContainer saludo="Bienvenido a la tienda en linea de Apple"/>} />
         <Route path="/category/:idCategory" element={<ItemListContainer saludo="Bienvenido a la tienda en linea de Apple"/>} />
         <Route path="/detail/:idProduct" element={<ItemDetailContainer/>}/>
-        <Route path="/example" element={<EjemploContadorEventListener/>}/>
+        <Route path="/example" element={<EjemploFormulario/>}/>
       </Routes>
     </BrowserRouter>
   )
