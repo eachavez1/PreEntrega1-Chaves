@@ -1,11 +1,17 @@
 import React from 'react'
 import ItemCount from '../ItemCount/ItemCount'
+import { useContext } from 'react'
+import { CartContext } from '../../context/CartContext'
 
 const ItemDetail = ({product}) => {
 
+  const {cart, addToCart} = useContext(CartContext)
+  
+  console.log(cart)
+
   const handleClick =(count) => {
-    const productCart={...product, quantity:count, total: product.precio * count}
-    console.log(productCart)
+    const productCart={...product, quantity:count}
+    addToCart(productCart)
   }
 
   return (
