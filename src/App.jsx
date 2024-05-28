@@ -6,6 +6,7 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import EjemploFormulario from './components/examples/EjemploFormulario';
 import { CartProvider } from './context/CartContext';
+import Cart from './components/Cart/Cart';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/category/:idCategory" element={<ItemListContainer saludo="Bienvenido a la tienda en linea de Apple"/>} />
           <Route path="/detail/:idProduct" element={<ItemDetailContainer/>}/>
           <Route path="/example" element={<EjemploFormulario/>}/>
+          <Route path="/cart" element={<Cart/>}/>
         </Routes>
       </CartProvider>
     </BrowserRouter>
