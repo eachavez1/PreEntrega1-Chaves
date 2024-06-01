@@ -1,0 +1,20 @@
+.boton_ir_al_carrito {
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(95, 161, 194);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.precio {
+    margin-bottom: 20px;
+}
+
+.garantia_texto {
+    margin-top: 20px;
+}

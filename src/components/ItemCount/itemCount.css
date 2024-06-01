@@ -1,0 +1,37 @@
+.suma_y_resta{
+    display: flex;
+    flex-direction: row;
+}
+
+.boton {
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(95, 161, 194);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    width: 50px;
+    margin: 10px;  
+}
+
+.agregar_carrito {
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(95, 161, 194);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    width: 150px;
+    margin: 10px;  
+}
+
+.suma_y_resta p {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
