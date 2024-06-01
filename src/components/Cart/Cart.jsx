@@ -7,6 +7,11 @@ const Cart = () => {
 
     const {cart, clearCart, deleteProductById, totalPrice} = useContext(CartContext)
 
+    //early return
+    if (cart.length === 0) {
+        return <div  className="carrito_vacio">Aún no hay productos en el carrito</div>
+    }
+
   return (
     <div className="Contenedor_padre">
         <h2>Productos en el carrito</h2>

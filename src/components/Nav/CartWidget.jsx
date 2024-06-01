@@ -11,7 +11,7 @@ const CartWidget = () => {
   return (
     <Link to="/cart" className='carrito_y_numero'>
         <img className='cart' src='imagenes/carrito.png'/>
-        <p>{totalQuantity()}</p>
+        <p>{totalQuantity() ===0 ? "" : totalQuantity()}</p>
     </Link>
     
 

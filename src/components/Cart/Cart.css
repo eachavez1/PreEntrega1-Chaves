@@ -29,3 +29,12 @@
     height: 20px;
     margin: 5px;
 }
+
+.carrito_vacio {
+    text-align: center;
+    color: rgb(181, 181, 181);
+    font-weight: 500;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:150px ;
+}
